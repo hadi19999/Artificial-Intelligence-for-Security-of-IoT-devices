@@ -1,3 +1,6 @@
+scipy
 pandas
-seaborn
-scikit-learn
+numpy
+wheel
+sklearn
+matplotlib

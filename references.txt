@@ -1,2 +1,0 @@
-CSI: https://github.com/Retsediv/WIFI_CSI_based_HAR
-DATASET: https://zenodo.org/record/3676058#.YazWJNBByUk
