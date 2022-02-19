@@ -1,4 +1,4 @@
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
 import pickle
 
 from utils import prepare_data
@@ -14,8 +14,8 @@ dfy = all_data[['Authenticated']]
 X_train = df
 y_train = dfy
 
-regressor = RandomForestClassifier() 
+regressor = LogisticRegression() 
 regressor.fit(X_train, y_train)
 
-filename = 'rf_model_class.sav'
+filename = 'lr_model_class.sav'
 pickle.dump(regressor, open(filename, 'wb'))
