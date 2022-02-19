@@ -26,14 +26,3 @@ class Transmitter():
         return rss_csi, authenticated
 
 
-# transmitter = Transmitter(b'*secret*')
-# rss_csi, authenticated = transmitter.get_random_data()
-# print(rss_csi, authenticated)
-
-# T = Twofish(b'*secret*')
-
-# for i in range(10, 99):
-#     messagee = 'MESSAGENUMBER ' + str(i)
-#     # print('aa', messagee)
-#     print(T.decrypt(transmitter.encrypt(messagee)).decode())
-
