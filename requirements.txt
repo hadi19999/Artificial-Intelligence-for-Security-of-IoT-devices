@@ -4,3 +4,4 @@ numpy
 wheel
 sklearn
 matplotlib
+twofish
